@@ -20,7 +20,7 @@ document.querySelector("input[type='password']").value
 ## Zugriff auf Elemente des DOM in JavaScript
 
 Wird gut beschrieben in der Web-Seite
-(DigitalOcean)[https://www.digitalocean.com/community/tutorials/how-to-access-elements-in-the-dom]
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-access-elements-in-the-dom)
 
 Die Funktionen in JavaScript sind
 
