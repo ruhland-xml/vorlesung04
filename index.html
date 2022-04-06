@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">  
+    <script src="main.js"></script>
+
+
+    <title>Vorlesung03-Html-und-Svg</title>
+  </head>
+  <body>
+    <h1>Einbettung von einer Svg-Grafik</h1>
+    <p>Beispiel für zwei xml-Sprachen in einem Dokument, nämlich svg eingebettet in html</p>
+    <p class="red">Das ist ein roter Text</p>
+    <p class="blue">Das ist ein blauer Text</p>
+    <svg width="200" height="200" viewBox="0 0 200 200">
+      <circle id="circle-01" class="svg-red" cx="100" cy="100" r="50"/>    
+      <circle id="circle-02" class="svg-blue" cx="140" cy="140" r="50" stroke="black" stroke-width="3" />    
+    </svg>
+    <h3>Dom Manipulation mit der svg-Grafik</h3>
+    <button id="colorbutton">Ändere Farbe in der svg-zeichnung</button>
+    <p>Die Farbänderung kann auch durch click auf den ersten Kreis erfolgen</p>
+  </body>
+</html>

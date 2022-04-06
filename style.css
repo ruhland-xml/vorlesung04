@@ -1,0 +1,17 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.svg-red {
+    fill: red;
+    stroke: black;
+    stroke-width: 6; 
+}
+
+.svg-blue {
+    fill: blue;
+}
