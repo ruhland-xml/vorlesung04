@@ -22,4 +22,9 @@ document.addEventListener("DOMContentLoaded", function(event){
 	circle01.addEventListener("click",function(e){
 		changeCircle01Color();
 	});
+
+	let domnodescount = document.getElementsByTagName('*').length;
+	let domcountspan = document.getElementById("dom-count");
+	domcountspan.innerText=domnodescount;
+
 });
